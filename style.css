@@ -1,0 +1,123 @@
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fff;
+}
+
+#header
+{
+	/*background: #ccc url("top.png");*/
+	background: #bbb;
+	color: #000;
+	text-align: left;
+	padding: 20px;
+	border-top-left-radius: 22px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation ul li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation ul li a:hover { background: #383; }
+
+#content-container
+{
+	float: left;
+	width: 100%;
+	/*background: #fff url("liquid-light.jpeg") repeat-y 68% 0;*/
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 0 0 4%;
+	display: inline;
+}
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 26%;
+	padding: 20px 0;
+	margin: 0 3% 0 0;
+	display: inline;
+}
+
+#aside h3 { margin: 0; }
+
+#aside ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#aside ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#aside ul li a
+{
+	display: block;
+	float: left;
+}
+
+a.facebook
+{
+	background: #000;
+/*	background-image: url("fb.jpg");*/
+	width: 20px;
+	height: 20px;
+}
+
+a.twitter
+{
+	background: #000;
+/*	background-image: url("fb.jpg");*/
+	width: 20px;
+	height: 20px;
+}
+
+#footer
+{
+	clear: left;
+	/*background: #ccc url("top.png");*/
+	background: #bbb;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
