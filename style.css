@@ -1,20 +1,26 @@
+body
+{
+	background: #ccc;
+}
+
 #container
 {
 	margin: 0 auto;
 	width: 100%;
-	background: #fff;
+	background: #ccc;
 }
 
 #header
 {
-	/*background: #ccc url("top.png");*/
-	background: #bbb;
-	color: #000;
+	background: #0b2d51; /*url("imgs/traffic.gif") no-repeat;*/
+	background-position: 0% 75%;
+	/*background: #bbb;*/
+	color: #ccc;
 	text-align: left;
 	padding: 20px;
 	border-top-left-radius: 22px;
 	
-	background: -webkit-gradient(linear,left top,right bottom,from(#bbb),to(#000));
+	/*background: -webkit-gradient(linear,left top,right bottom,from(#bbb),to(#000));*/
 }
 
 #header h1 { margin: 0; }
@@ -48,7 +54,7 @@
 	border-right: 1px solid #fff;
 }
 
-#navigation ul li a:hover { background: #383; }
+#navigation ul li a:hover { background: #186666; }
 
 #content-container
 {
@@ -118,12 +124,13 @@ a.twitter
 {
 	clear: left;
 	/*background: #ccc url("top.png");*/
-	background: #bbb;
+	background: #0b2d51;
 	color: #fff;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	border-bottom-right-radius: 22px;
 	
-		background: -webkit-gradient(linear,left top,right bottom,from(#bbb),to(#000));
+		/*background: -webkit-gradient(linear,left top,right bottom,from(#999),to(#0b2d51));*/
 
 }
