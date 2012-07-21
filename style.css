@@ -1,6 +1,7 @@
 body
 {
 	background: #ccc;
+	/*font-family: 'PT Sans', sans-serif;*/
 }
 
 #container
@@ -71,9 +72,20 @@ body
 	padding: 20px 0;
 	margin: 0 0 0 4%;
 	display: inline;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 150%;
 }
 
 #content h2 { margin: 0; }
+
+#content h3 
+{
+	margin: 20;
+	background: #999;
+	width: 200px;
+	height: 30px;
+	font-size: 10pt;
+}
 
 #aside
 {
@@ -104,26 +116,9 @@ body
 	float: left;
 }
 
-a.facebook
-{
-	background: #000;
-/*	background-image: url("fb.jpg");*/
-	width: 20px;
-	height: 20px;
-}
-
-a.twitter
-{
-	background: #000;
-/*	background-image: url("fb.jpg");*/
-	width: 20px;
-	height: 20px;
-}
-
 #footer
 {
 	clear: left;
-	/*background: #ccc url("top.png");*/
 	background: #0b2d51;
 	color: #fff;
 	text-align: right;
